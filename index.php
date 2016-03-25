@@ -48,7 +48,7 @@ if ($conn) {
   }
 
   echo "<h3> Visitor Log </h3>";
-  $sql = "SELECT id, containerip, visitstamp FROM visitors";
+  $sql = "SELECT id, containerip, visitstamp FROM visitors ORDER BY visitstamp DESC LIMIT 10";
   $result = mysqli_query($conn, $sql);
   if (mysqli_num_rows($result) > 0) {
     echo "<table><tr><th>Id</th><th>Container</th><th>Timestamp</th></tr>";
