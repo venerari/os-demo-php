@@ -14,6 +14,7 @@
  </head>
  <body>
  <h1>OpenShift: Hello Microsoft Mechanics!</h1>
+ <h2>Test subheading...</h2>
 <?php
 error_reporting(E_ERROR);
 
