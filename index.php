@@ -17,14 +17,13 @@
     body {
         background-color: #0080a6;
         color: #fff;
-        font-family: Segoe,"Segoe UI",Arial,Verdana,sans-serif;
+        font-family: Segoe,"Segoe UI Light","Segoe UI",Segoe,Arial,Verdana,sans-serif;
     }
     
   </style>
  </head>
  <body>   
  <h1>OpenShift: Hello //build/ !</h1>
- <br>
  <img src="http://build.microsoft.com/img/logo-build-small.png" height="36" width="37" alt="Microsoft"> 
  <br>
  <!--<h2>Let's see CI in action!</h2> -->
@@ -79,6 +78,7 @@ if ($conn) {
   echo "Database is not available";
 }
 ?>
+<br>
 <img src="http://build.microsoft.com/img/logo-ms.png" alt="Microsoft"> 
  </body>
 </html>
