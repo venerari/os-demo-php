@@ -1,20 +1,26 @@
 <html>
  <head>
-  <title>OpenShift: Hello Microsoft Mechanics!</title>
+  <title>Red Hat OpenShift: Hello //build/</title>
   <style>
     table, th, td {
-      border: 1px solid black;
+      border: 1px solid white;
       border-collapse: collapse;
     } 
     th, td {
       padding: 5px;
       text-align: left;
     }
+    body {
+        background-color: #0080a6;
+        color: #fff;
+        font-family: Segoe,"Segoe UI",Segoe,Arial,Verdana,sans-serif;
+    }
   </style>
  </head>
  <body>
+ <img src="http://build.microsoft.com/img/logo-ms.png" alt="Microsoft">    
  <h1>Red Hat OpenShift: Hello //build/</h1>
- <!-- <h2>Test subheading...</h2> -->
+ <h2>Let's see CI in action!</h2> -->
 <?php
 error_reporting(E_ERROR);
 
@@ -52,7 +58,7 @@ if ($conn) {
   $sql = "SELECT id, containerip, visitstamp FROM visitors ORDER BY visitstamp DESC LIMIT 30";
   $result = mysqli_query($conn, $sql);
   if (mysqli_num_rows($result) > 0) {
-    echo "<table><tr><th>Id</th><th>Container</th><th>Timestamp</th></tr>";
+    echo "<table><tr><th>Id</th><th>Container IP</th><th>Timestamp</th></tr>";
     while($row = mysqli_fetch_assoc($result)) {
         echo "<tr><td>" . $row["id"] . "</td><td>" . $row["containerip"] . "</td><td>" . $row["visitstamp"] . "</td></tr>";
     }
