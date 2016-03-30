@@ -3,18 +3,6 @@
  <head>
   <title>Red Hat OpenShift: Hello //build/</title>
   <style>
-      @font-face{
-          font-weight: normal;
-          font-style: normal;
-          font-family: Segoe;
-          src:url("http://build.microsoft.com/fonts/segoe_ui.eot");
-          src:local("Segoe UI"),local("Segoe"),local("Segoe WP"),url("http://build.microsoft.com/fonts/segoe_ui.eot?#iefix") format("embedded-opentype"),url("http://build.microsoft.com/fonts/segoe_ui.woff") format("woff"),url("http://build.microsoft.com/fonts/segoe_ui.ttf") format("truetype")}
-       @font-face{
-           font-weight:normal;
-           font-style:normal;
-           font-family:SegoeLight;
-           src:url("http://build.microsoft.com/fonts/segoe_ui_light.eot");src:local("Segoe UI Light"),local("Segoe WP Light"),url("http://build.microsoft.com/fonts/segoe_ui_light.eot?#iefix") format("embedded-opentype"),url("http://build.microsoft.com/fonts/segoe_ui_light.woff") format("woff"),url("http://build.microsoft.com/fonts/segoe_ui_light.ttf") format("truetype")
-       }
     table, th, td {
       border: 1px solid white;
       border-collapse: collapse;
@@ -24,12 +12,12 @@
       text-align: left;
     }
     h1 {
-        font-family: SegoeLight
+        font-family: Arial,Verdana,sans-serif;
     }
     body {
         background-color: #0080a6;
         color: #fff;
-        font-family: SegoeLight,Arial,Verdana,sans-serif;
+        font-family: Arial,Verdana,sans-serif;
     }
     
   </style>
