@@ -13,7 +13,7 @@
   </style>
  </head>
  <body>
- <h1>OpenShift: Hello Microsoft Mechanics!</h1>
+ <h1>Red Hat OpenShift: Hello //build/</h1>
  <!-- <h2>Test subheading...</h2> -->
 <?php
 error_reporting(E_ERROR);
@@ -49,7 +49,7 @@ if ($conn) {
   }
 
   echo "<h3> Visitor Log </h3>";
-  $sql = "SELECT id, containerip, visitstamp FROM visitors ORDER BY visitstamp DESC LIMIT 10";
+  $sql = "SELECT id, containerip, visitstamp FROM visitors ORDER BY visitstamp DESC LIMIT 30";
   $result = mysqli_query($conn, $sql);
   if (mysqli_num_rows($result) > 0) {
     echo "<table><tr><th>Id</th><th>Container</th><th>Timestamp</th></tr>";
