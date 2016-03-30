@@ -1,7 +1,11 @@
+
 <html>
  <head>
   <title>Red Hat OpenShift: Hello //build/</title>
   <style>
+      @font-face{
+          font-weight:normal;font-style:normal;font-family:'Segoe';src:url("http://build.microsoft.com/fonts/segoe_ui.eot");src:local("Segoe UI"),local("Segoe"),local("Segoe WP"),url("http://build.microsoft.com/fonts/segoe_ui.eot?#iefix") format("embedded-opentype"),url("http://build.microsoft.com/fonts/segoe_ui.woff") format("woff"),url("http://build.microsoft.com/fonts/segoe_ui.ttf") format("truetype")}@font-face{font-weight:normal;font-style:normal;font-family:'SegoeLight';src:url("http://build.microsoft.com/fonts/segoe_ui_light.eot");src:local("Segoe UI Light"),local("Segoe WP Light"),url("http://build.microsoft.com/fonts/segoe_ui_light.eot?#iefix") format("embedded-opentype"),url("http://build.microsoft.com/fonts/segoe_ui_light.woff") format("woff"),url("http://build.microsoft.com/fonts/segoe_ui_light.ttf") format("truetype")
+    }
     table, th, td {
       border: 1px solid white;
       border-collapse: collapse;
@@ -13,14 +17,16 @@
     body {
         background-color: #0080a6;
         color: #fff;
-        font-family: Segoe,"Segoe UI",Segoe,Arial,Verdana,sans-serif;
+        font-family: Segoe,"Segoe UI",Arial,Verdana,sans-serif;
     }
+    
   </style>
+  <link rel="stylesheet" href="http://build.microsoft.com/css/main.min.css" type="text/css">
  </head>
- <body>
- <img src="http://build.microsoft.com/img/logo-ms.png" alt="Microsoft">    
- <h1>Red Hat OpenShift: Hello //build/</h1>
- <h2>Let's see CI in action!</h2> -->
+ <body>   
+ <h1>OpenShift: Hello //build/ !</h1>
+ <img src="http://build.microsoft.com/img/logo-build-small.png" alt="Microsoft"> 
+ <!--<h2>Let's see CI in action!</h2> -->
 <?php
 error_reporting(E_ERROR);
 
@@ -72,5 +78,6 @@ if ($conn) {
   echo "Database is not available";
 }
 ?>
+<img src="http://build.microsoft.com/img/logo-ms.png" alt="Microsoft"> 
  </body>
 </html>
