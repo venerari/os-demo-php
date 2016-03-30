@@ -1,7 +1,7 @@
 
 <html>
  <head>
-  <title>Red Hat OpenShift: Hello //build/</title>
+  <title>Red Hat OpenShift: Hello //build/ !</title>
   <style>
     table, th, td {
       border: 1px solid white;
