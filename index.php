@@ -21,7 +21,6 @@
     }
     
   </style>
-  <link rel="stylesheet" href="http://build.microsoft.com/css/main.min.css" type="text/css">
  </head>
  <body>   
  <h1>OpenShift: Hello //build/ !</h1>
