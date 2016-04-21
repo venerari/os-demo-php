@@ -1,7 +1,7 @@
 
 <html>
  <head>
-  <title>Red Hat OpenShift: Hello //build/ !</title>
+  <title>Red Hat OpenShift: Hello UW-Madison!</title>
   <style>
     table, th, td {
       border: 1px solid white;
@@ -26,7 +26,9 @@
  <h1>OpenShift: Hello //build/ !</h1>
  <img src="http://build.microsoft.com/img/logo-build-small.png" height="36" width="37" alt="Microsoft"> 
  <br>
- <p>Let's see CI in action!</p>
+ <!--
+   <p>Let's see CI in action!</p>
+   -->
 <?php
 error_reporting(E_ERROR);
 
