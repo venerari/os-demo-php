@@ -23,7 +23,7 @@
   </style>
  </head>
  <body>   
- <h1>OpenShift: Hello //build/ !</h1>
+ <h1>OpenShift: Hello UW-Madison !</h1>
  <img src="http://build.microsoft.com/img/logo-build-small.png" height="36" width="37" alt="Microsoft"> 
  <br>
  <!--
