@@ -1,7 +1,7 @@
 
 <html>
  <head>
-  <title>Red Hat OpenShift: Hello NDC Oslo!</title>
+  <title>NDC { Oslo } : Red Hat OpenShift</title>
   <style>
     table, th, td {
       border: 1px solid white;
@@ -23,8 +23,7 @@
   </style>
  </head>
  <body>   
- <h1>OpenShift: Hello NDC Oslo!</h1>
- <img src="http://build.microsoft.com/img/logo-build-small.png" height="36" width="37" alt="Microsoft"> 
+ <h1>OpenShift: Hello NDC { Oslo }!</h1>
  <br>
  <!--
    <p>Let's see CI in action!</p>
