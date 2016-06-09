@@ -1,7 +1,7 @@
 
 <html>
  <head>
-  <title>Red Hat OpenShift: Hello UW-Madison!</title>
+  <title>Red Hat OpenShift: Hello NDC Oslo!</title>
   <style>
     table, th, td {
       border: 1px solid white;
@@ -23,7 +23,7 @@
   </style>
  </head>
  <body>   
- <h1>OpenShift: Hello UW-Madison !</h1>
+ <h1>OpenShift: Hello NDC Oslo!</h1>
  <img src="http://build.microsoft.com/img/logo-build-small.png" height="36" width="37" alt="Microsoft"> 
  <br>
  <!--
