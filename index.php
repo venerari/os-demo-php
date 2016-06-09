@@ -62,7 +62,7 @@ if ($conn) {
   }
 
   echo "<h3> Visitor Log </h3>";
-  $sql = "SELECT id, containerip, visitstamp FROM visitors ORDER BY visitstamp DESC LIMIT 20";
+  $sql = "SELECT id, containerip, visitstamp FROM visitors ORDER BY id DESC LIMIT 20";
   $result = mysqli_query($conn, $sql);
   if (mysqli_num_rows($result) > 0) {
     echo "<table><tr><th>Id</th><th>Container IP</th><th>Timestamp</th></tr>";
