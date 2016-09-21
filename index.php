@@ -23,7 +23,7 @@
   </style>
  </head>
  <body>   
- <h1>OpenShift: Hello NDC { * }!</h1>
+ <h1>OpenShift: Hello Test { * }!</h1>
  <br>
  <!--
    <p>Let's see CI in action!</p>
