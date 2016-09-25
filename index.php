@@ -1,7 +1,7 @@
 
 <html>
  <head>
-  <title>NDC { * } : Red Hat OpenShift</title>
+  <title>Microsoft Azure : Red Hat OpenShift</title>
   <style>
     table, th, td {
       border: 1px solid white;
@@ -23,7 +23,7 @@
   </style>
  </head>
  <body>   
- <h1>OpenShift: Hello Test { * }!</h1>
+ <h1>OpenShift: Hello Test!</h1>
  <br>
  <!--
    <p>Let's see CI in action!</p>
