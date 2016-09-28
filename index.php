@@ -23,7 +23,7 @@
   </style>
  </head>
  <body>   
- <h1>OpenShift: Hello Ignite!</h1>
+ <h1>OpenShift: Hello Ignite!!!</h1>
  <br>
  <!--
    <p>Let's see CI in action!</p>
@@ -38,6 +38,8 @@ $username = getenv("MYSQL_SERVICE_USERNAME");
 $password = getenv("MYSQL_SERVICE_PASSWORD");
 
 $conn = mysqli_connect($host, $username, $password, $database, $port);
+
+
 if ($conn) {
   echo "Database is available <br/>";
   $sql = "CREATE TABLE visitors (
