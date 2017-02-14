@@ -23,7 +23,7 @@
   </style>
  </head>
  <body>   
- <h1>OpenShift in Action: Hello World!</h1>
+ <h1>OpenShift in Action: Hello World, Hong Kong!</h1>
  <br>
  <!--
    <p>Let's see CI in action!</p>
