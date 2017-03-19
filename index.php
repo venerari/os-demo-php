@@ -1,7 +1,7 @@
 
 <html>
  <head>
-  <title>Microsoft Azure : Red Hat OpenShift in Hong Kong!</title>
+  <title>Microsoft Azure : In Action!</title>
   <style>
     table, th, td {
       border: 1px solid white;
@@ -23,7 +23,7 @@
   </style>
  </head>
  <body>   
- <h1>OpenShift in Action: Hello World in Hong Kong!</h1>
+ <h1>OpenShift in Action: Hello World!</h1>
  <br>
  <!--
    <p>Let's see CI in action!</p>
