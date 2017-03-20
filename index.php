@@ -23,7 +23,7 @@
   </style>
  </head>
  <body>   
- <h1>OpenShift in Action: Hello World!</h1>
+ <h1>Hello Milan!</h1>
  <br>
  <!--
    <p>Let's see CI in action!</p>
