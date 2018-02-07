@@ -1,7 +1,7 @@
 
 <html>
  <head>
-  <title>Microsoft Azure : In Action!</title>
+  <title>1Microsoft Azure : In Action!</title>
   <style>
     table, th, td {
       border: 1px solid white;
